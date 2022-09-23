@@ -129,6 +129,7 @@ const AppProvider = ({ children }) => {
       );
       total = parseFloat(total.toFixed(2));
       setTotalAmt(total);
+      console.log(amount)
     };
 
     getTotals();

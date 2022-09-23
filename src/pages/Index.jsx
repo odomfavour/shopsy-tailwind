@@ -3,7 +3,7 @@ import React from "react";
 import headphone from "../images/product-38.png";
 import whiteHeadpone from "../images/poster-03.png";
 import { FaFire, FaTags, FaMobileAlt, FaRing, FaTshirt, FaUserTie, FaShippingFast, FaBriefcase, FaPiedPiperAlt, FaRegLifeRing } from "react-icons/fa";
-import { FiShoppingCart, FiAward, FiXCircle } from "react-icons/fi";
+import { FiShoppingCart, FiXCircle } from "react-icons/fi";
 import PageWrapper from "../layouts/PageWrapper";
 import { useGlobalContext } from "../context/context";
 import Loading from "../components/Loading";
