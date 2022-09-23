@@ -1,5 +1,6 @@
 import React from "react";
 import PageWrapper from "../layouts/PageWrapper";
+import { Link } from "react-router-dom";
 
 const Checkout = () => {
   return (
@@ -146,12 +147,12 @@ const Checkout = () => {
                     class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
                   >
                     I agree with the{" "}
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       class="text-blue-600 hover:underline dark:text-blue-500"
                     >
                       terms and conditions
-                    </a>
+                    </Link>
                   </label>
                 </div>
                 <button
